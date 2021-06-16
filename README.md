@@ -119,7 +119,7 @@ CC=clang CXX=clang++ cmake -DCMAKE_BUILD_TYPE=Release -Wno-dev ..
 On a freshly installed and up-to-date Ubuntu Desktop (20.04.2) the following command line installs all required dependencies which should suffice for a successful build.
 
 ```bash
-sudo apt install git cmake build-essential libsodium-dev libboost-dev libgmp-dev libfmt-dev
+sudo apt install git cmake build-essential libsodium-dev libboost-all-dev libgmp-dev libfmt-dev
 ```
 
 ## Run
