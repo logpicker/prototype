@@ -1,0 +1,15 @@
+compile_commands.json
+out
+build
+
+# Clion
+.cache
+.idea
+cmake-build-debug
+
+# Profiling
+callgrind.out.*
+perf.data
+
+# Slurm
+slurm*.out
